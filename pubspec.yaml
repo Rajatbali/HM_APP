@@ -1,0 +1,285 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/hm-app-screens/images/user-1.png
+    - assets/erp-mobile-screen-design/images/bus-1.png
+    - assets/erp-mobile-screen-design/images/home-1.png
+    - assets/hm-app-screens/images/.png
+    - assets/hm-app-screens/images/view-1.png
+    - assets/hm-app-screens/images/group-12.png
+    - assets/hm-app-screens/images/salad-1.png
+    - assets/hm-app-screens/images/dish-1.png
+    - assets/hm-app-screens/images/group-12-YsL.png
+    - assets/hm-app-screens/images/search.png
+    - assets/hm-app-screens/images/icon-menu.png
+    - assets/hm-app-screens/images/-LKt.png
+    - assets/hm-app-screens/images/group-12-syc.png
+    - assets/hm-app-screens/images/-Z5k.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-1.png
+    - assets/hm-app-screens/images/icon-bookmark-Ahp.png
+    - assets/hm-app-screens/images/-Tmt.png
+    - assets/hm-app-screens/images/-sPg.png
+    - assets/hm-app-screens/images/-Pqc.png
+    - assets/hm-app-screens/images/icon-bookmark.png
+    - assets/erp-mobile-screen-design/images/-Lmx.png
+    - assets/hm-app-screens/images/mm-continental-white-1.png
+    - assets/erp-mobile-screen-design/images/home-1-73x.png
+    - assets/hm-app-screens/images/-BpW.png
+    - assets/hm-app-screens/images/-G7C.png
+    - assets/erp-mobile-screen-design/images/sign-up-1.png
+    - assets/hm-app-screens/images/group-12-s8E.png
+    - assets/hm-app-screens/images/-EUa.png
+    - assets/hm-app-screens/images/dining-1-2.png
+    - assets/hm-app-screens/images/-AcS.png
+    - assets/hm-app-screens/images/starfill.png
+    - assets/erp-mobile-screen-design/images/cashless-payment-1.png
+    - assets/hm-app-screens/images/icon-bookmark-XEa.png
+    - assets/hm-app-screens/images/group-4.png
+    - assets/erp-mobile-screen-design/images/home-1-okE.png
+    - assets/erp-mobile-screen-design/images/woman-1.png
+    - assets/erp-mobile-screen-design/images/bus-1-3Hc.png
+    - assets/hm-app-screens/images/-C4a.png
+    - assets/hm-app-screens/images/icon-star.png
+    - assets/hm-app-screens/images/burger-1-1.png
+    - assets/hm-app-screens/images/padlock-1.png
+    - assets/hm-app-screens/images/padlock-1-krW.png
+    - assets/hm-app-screens/images/mask-group.png
+    - assets/hm-app-screens/images/padlock-1-foQ.png
+    - assets/hm-app-screens/images/-R1t.png
+    - assets/erp-mobile-screen-design/images/bookshelf-1.png
+    - assets/hm-app-screens/images/-kiv.png
+    - assets/hm-app-screens/images/padlock-1-DW2.png
+    - assets/hm-app-screens/images/phone-call-1.png
+    - assets/erp-mobile-screen-design/images/woman-1-uj8.png
+    - assets/hm-app-screens/images/-ppi.png
+    - assets/hm-app-screens/images/auto-group-rpjy.png
+    - assets/hm-app-screens/images/group-12-jRt.png
+    - assets/erp-mobile-screen-design/images/-uLN.png
+    - assets/hm-app-screens/images/-pqx.png
+    - assets/erp-mobile-screen-design/images/menu-1.png
+    - assets/hm-app-screens/images/dining-1-1.png
+    - assets/hm-app-screens/images/icon-star-h2S.png
+    - assets/hm-app-screens/images/dining-1-2-g8S.png
+    - assets/erp-mobile-screen-design/images/sign-up-1-MGW.png
+    - assets/hm-app-screens/images/mask-group-nMp.png
+    - assets/erp-mobile-screen-design/images/naac-1.png
+    - assets/hm-app-screens/images/view-1-zca.png
+    - assets/hm-app-screens/images/mm-continental-white-1-XcW.png
+    - assets/hm-app-screens/images/mask-group-tT4.png
+    - assets/erp-mobile-screen-design/images/menu-1-Wvv.png
+    - assets/hm-app-screens/images/icon-bookmark-rE6.png
+    - assets/erp-mobile-screen-design/images/menu-1-Kfx.png
+    - assets/hm-app-screens/images/icon-bookmark-4dY.png
+    - assets/erp-mobile-screen-design/images/menu-1-H46.png
+    - assets/hm-app-screens/images/mask-group-EYz.png
+    - assets/hm-app-screens/images/mm-continental-white-1-N9Q.png
+    - assets/hm-app-screens/images/-oUn.png
+    - assets/hm-app-screens/images/mask-group-eg2.png
+    - assets/hm-app-screens/images/starfill-bbG.png
+    - assets/hm-app-screens/images/view-1-Znz.png
+    - assets/hm-app-screens/images/pizza-outline-1.png
+    - assets/hm-app-screens/images/icon-star-Eqg.png
+    - assets/hm-app-screens/images/icon-star-xj4.png
+    - assets/erp-mobile-screen-design/images/youtube-1.png
+    - assets/erp-mobile-screen-design/images/l112264544-1.png
+    - assets/hm-app-screens/images/email-1.png
+    - assets/erp-mobile-screen-design/images/home-1-jKp.png
+    - assets/hm-app-screens/images/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate-1.png
+    - assets/hm-app-screens/images/icon-star-G2e.png
+    - assets/erp-mobile-screen-design/images/-Qee.png
+    - assets/erp-mobile-screen-design/images/home-1-hte.png
+    - assets/hm-app-screens/images/-ipS.png
+    - assets/erp-mobile-screen-design/images/naac-1-GLA.png
+    - assets/erp-mobile-screen-design/images/facebook-1.png
+    - assets/hm-app-screens/images/dining-1-2-oaz.png
+    - assets/hm-app-screens/images/starfill-Lin.png
+    - assets/erp-mobile-screen-design/images/menu-1-UKC.png
+    - assets/erp-mobile-screen-design/images/home-1-qQe.png
+    - assets/hm-app-screens/images/view-1-bei.png
+    - assets/erp-mobile-screen-design/images/twitter-1.png
+    - assets/hm-app-screens/images/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate-1-aZp.png
+    - assets/hm-app-screens/images/delicious-cheeseburger-1.png
+    - assets/hm-app-screens/images/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate-1-LSN.png
+    - assets/erp-mobile-screen-design/images/menu-1-47U.png
+    - assets/hm-app-screens/images/mask-group-x1g.png
+    - assets/hm-app-screens/images/mask-group-LRY.png
+    - assets/hm-app-screens/images/delicious-cheeseburger-1-Phk.png
+    - assets/erp-mobile-screen-design/images/instagram-1.png
+    - assets/hm-app-screens/images/-562.png
+    - assets/hm-app-screens/images/delicious-cheeseburger-1-5Fp.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2.png
+    - assets/hm-app-screens/images/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate-1-LuY.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-h1L.png
+    - assets/erp-mobile-screen-design/images/home-1-H54.png
+    - assets/erp-mobile-screen-design/images/menu-1-ere.png
+    - assets/erp-mobile-screen-design/images/icon-file-download.png
+    - assets/erp-mobile-screen-design/images/-aBL.png
+    - assets/erp-mobile-screen-design/images/home-1-3K8.png
+    - assets/erp-mobile-screen-design/images/menu-1-7sx.png
+    - assets/erp-mobile-screen-design/images/l112264544-1-F3Q.png
+    - assets/erp-mobile-screen-design/images/icon-file-download-gQJ.png
+    - assets/erp-mobile-screen-design/images/l112264544-1-QBU.png
+    - assets/erp-mobile-screen-design/images/down-arrow-1.png
+    - assets/erp-mobile-screen-design/images/-2c2.png
+    - assets/erp-mobile-screen-design/images/home-1-Jmp.png
+    - assets/erp-mobile-screen-design/images/menu-1-RtN.png
+    - assets/erp-mobile-screen-design/images/icon-close.png
+    - assets/erp-mobile-screen-design/images/home-1-PNS.png
+    - assets/erp-mobile-screen-design/images/icon-file-download-BxW.png
+    - assets/erp-mobile-screen-design/images/home-1-Fvi.png
+    - assets/erp-mobile-screen-design/images/cashless-payment-1-2Ui.png
+    - assets/erp-mobile-screen-design/images/man-1.png
+    - assets/erp-mobile-screen-design/images/home-1-EVG.png
+    - assets/erp-mobile-screen-design/images/home-1-SEW.png
+    - assets/hm-app-screens/images/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate-1-vqp.png
+    - assets/erp-mobile-screen-design/images/bookshelf-1-u5t.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-9rS.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-Z8v.png
+    - assets/erp-mobile-screen-design/images/menu-1-WrN.png
+    - assets/erp-mobile-screen-design/images/home-1-me2.png
+    - assets/erp-mobile-screen-design/images/down-arrow-1-AEW.png
+    - assets/erp-mobile-screen-design/images/home-1-dZL.png
+    - assets/erp-mobile-screen-design/images/down-arrow-1-HmL.png
+    - assets/erp-mobile-screen-design/images/-7Ea.png
+    - assets/erp-mobile-screen-design/images/speaker-3-1.png
+    - assets/erp-mobile-screen-design/images/home-1-sjQ.png
+    - assets/erp-mobile-screen-design/images/-qRL.png
+    - assets/erp-mobile-screen-design/images/icon-arrow-ios-downward.png
+    - assets/erp-mobile-screen-design/images/home-1-DvJ.png
+    - assets/erp-mobile-screen-design/images/home-1-nCi.png
+    - assets/erp-mobile-screen-design/images/home-1-qAz.png
+    - assets/erp-mobile-screen-design/images/home-1-XUN.png
+    - assets/erp-mobile-screen-design/images/home-1-Qrv.png
+    - assets/hm-app-screens/images/asd-1.png
+    - assets/erp-mobile-screen-design/images/icon-search.png
+    - assets/erp-mobile-screen-design/images/home-1-Z5L.png
+    - assets/erp-mobile-screen-design/images/home-1-NNn.png
+    - assets/erp-mobile-screen-design/images/home-1-tZx.png
+    - assets/erp-mobile-screen-design/images/icon-arrow-ios-downward-xre.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-gwL.png
+    - assets/erp-mobile-screen-design/images/home-1-Ntr.png
+    - assets/hm-app-screens/images/burger-1.png
+    - assets/erp-mobile-screen-design/images/receipt-1.png
+    - assets/erp-mobile-screen-design/images/home-1-8mx.png
+    - assets/erp-mobile-screen-design/images/home-1-Y5G.png
+    - assets/erp-mobile-screen-design/images/receipt-1-zCJ.png
+    - assets/erp-mobile-screen-design/images/-2ZQ.png
+    - assets/hm-app-screens/images/delicious-cheeseburger-1-kcA.png
+    - assets/erp-mobile-screen-design/images/home-1-q1L.png
+    - assets/erp-mobile-screen-design/images/receipt-1-xL2.png
+    - assets/erp-mobile-screen-design/images/icon-arrow-ios-downward-8u8.png
+    - assets/erp-mobile-screen-design/images/-vSn.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-2b4.png
+    - assets/erp-mobile-screen-design/images/home-1-g26.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-8pr.png
+    - assets/erp-mobile-screen-design/images/icon-arrow-ios-downward-dzS.png
+    - assets/erp-mobile-screen-design/images/icon-search-ssQ.png
+    - assets/erp-mobile-screen-design/images/home-1-cJW.png
+    - assets/erp-mobile-screen-design/images/bookshelf-1-Q4S.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-2in.png
+    - assets/erp-mobile-screen-design/images/bookshelf-1-WfC.png
+    - assets/erp-mobile-screen-design/images/bookshelf-1-4zv.png
+    - assets/erp-mobile-screen-design/images/home-1-8ee.png
+    - assets/erp-mobile-screen-design/images/home-1-87k.png
+    - assets/erp-mobile-screen-design/images/auto-group-a1vs.png
+    - assets/erp-mobile-screen-design/images/-MzJ.png
+    - assets/erp-mobile-screen-design/images/bookshelf-1-Jkr.png
+    - assets/erp-mobile-screen-design/images/speaker-3-1-Smx.png
+    - assets/erp-mobile-screen-design/images/icon-arrow-ios-downward-gL2.png
+    - assets/erp-mobile-screen-design/images/home-1-rga.png
+    - assets/erp-mobile-screen-design/images/home-1-e74.png
+    - assets/erp-mobile-screen-design/images/speaker-3-1-ree.png
+    - assets/erp-mobile-screen-design/images/home-1-vsL.png
+    - assets/erp-mobile-screen-design/images/home-1-eWn.png
+    - assets/erp-mobile-screen-design/images/mmdu-logo-2-yRk.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
